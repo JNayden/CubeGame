@@ -12,7 +12,7 @@ public class BlockSpawner : MonoBehaviour
 
     public static float posOffset = 15f; // static to not go out of scope, when invoke them in Update
     public static float timeToSpawn = 2f;
-    public static float timeBetweenWave = 5f;
+    public static float timeBetweenWave = 3f;
 
     public Transform groundIncrease;
     
