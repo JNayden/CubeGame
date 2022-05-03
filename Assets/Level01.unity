@@ -455,6 +455,7 @@ MonoBehaviour:
   blockPefab: {fileID: 3051770648353503649, guid: fee4fce000533e245803f402ab6e1ea4, type: 3}
   scale: {x: 0, y: 0, z: 0}
   newPos: {x: 0, y: 0, z: 0}
+  newPos1: {x: 0, y: 0, z: 0}
   groundIncrease: {fileID: 231519089}
 --- !u!4 &324524662
 Transform:
@@ -824,6 +825,18 @@ PrefabInstance:
     - target: {fileID: 3051770648353503652, guid: fee4fce000533e245803f402ab6e1ea4, type: 3}
       propertyPath: m_RootOrder
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3051770648353503652, guid: fee4fce000533e245803f402ab6e1ea4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3051770648353503652, guid: fee4fce000533e245803f402ab6e1ea4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3051770648353503652, guid: fee4fce000533e245803f402ab6e1ea4, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3051770648353503652, guid: fee4fce000533e245803f402ab6e1ea4, type: 3}
       propertyPath: m_LocalPosition.x

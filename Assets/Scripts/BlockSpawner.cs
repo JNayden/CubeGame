@@ -9,6 +9,7 @@ public class BlockSpawner : MonoBehaviour
 
     public Vector3 scale;
     public Vector3 newPos;
+    public Vector3 newPos1;
 
     public static float posOffset = 15f; // static to not go out of scope, when invoke them in Update
     public static float timeToSpawn = 2f;
@@ -25,15 +26,20 @@ public class BlockSpawner : MonoBehaviour
     public void levelGenerate()
     {
         int indexR = Random.Range(0, spawnPoints.Length);
+        int scaleX = Random.Range(3, 6);
+       // int scaleY = Random.Range(5, 10);
+        int scaleZ = Random.Range(3, 6);
         for (int i = 0; i < spawnPoints.Length; i++)
         {
             
             if (indexR != i)
             {
-                Instantiate(blockPefab, spawnPoints[i].position + newPos, Quaternion.identity);
+                blockPefab.transform.localScale = new Vector3(scaleX, 2, scaleZ);
+                Instantiate(blockPefab, spawnPoints[i].position + newPos + newPos1, Quaternion.identity);
                 scaling();
             }
             newPos += new Vector3(0, 0, posOffset);
+            newPos1 = new Vector3(scaleZ,0, scaleX);
         }
     }
     // Start is called before the first frame update
