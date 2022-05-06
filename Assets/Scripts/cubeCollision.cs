@@ -15,6 +15,7 @@ public class cubeCollision : MonoBehaviour
         {
             Debug.Log("We hit obstacle");
             cubeMovement.enabled = false;
+            FindObjectOfType<GameManager>().EndGame();
         }
     }
 }
