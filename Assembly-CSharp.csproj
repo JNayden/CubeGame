@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\CubeMovement.cs" />
     <Compile Include="Assets\Scripts\BlockSpawner.cs" />
     <Compile Include="Assets\Scripts\cubeCollision.cs" />
+    <Compile Include="Assets\PositionUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
