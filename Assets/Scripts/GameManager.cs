@@ -5,7 +5,7 @@ public class GameManager : MonoBehaviour
 {
     SceneManager sceneManager;
     bool gameHasEnded = false;
-    public void EndGame()
+    public void EndGameFromCollision()
     {
         if(gameHasEnded == false)
         {
@@ -13,6 +13,15 @@ public class GameManager : MonoBehaviour
             Debug.Log("Game Over!");
         }
         Invoke("Restart", 1.5f);
+    }
+    public void EndGameFromFalling()
+    {
+        if (gameHasEnded == false)
+        {
+            gameHasEnded = true;
+            Debug.Log("Game Over!");
+        }
+        Restart();
     }
     public void Restart()
     {
