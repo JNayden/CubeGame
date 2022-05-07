@@ -21,7 +21,7 @@ public class CubeMovement : MonoBehaviour
         }
         if(rb.position.y < 2f)
         {
-            FindObjectOfType<GameManager>().EndGame();
+            FindObjectOfType<GameManager>().EndGameFromFalling();
         }
     }
 }

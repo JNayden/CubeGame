@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/StoryMode_lv5.unity
+=======
+- path: Assets/Level01.unity
+>>>>>>> 5b02e6d4cbdf38abf4c2fcae370bf9425d583de6
   isLoaded: 1
   isActive: 1
   isSubScene: 0
