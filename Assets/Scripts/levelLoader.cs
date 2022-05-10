@@ -44,6 +44,6 @@ public class levelLoader : MonoBehaviour
         
         //gameObject.GetComponent<Animator>().enabled = false;
         Debug.Log(SceneManager.sceneCount); //TODO: Why I get only 1 scene. I have two added in build.
-        SceneManager.LoadScene("StoryMode");
+        SceneManager.LoadScene("StoryMode_lv1");
     }
 }

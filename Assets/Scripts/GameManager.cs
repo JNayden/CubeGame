@@ -5,6 +5,13 @@ public class GameManager : MonoBehaviour
 {
     SceneManager sceneManager;
     bool gameHasEnded = false;
+    public GameObject completeLevelUI;
+
+    public void completeLevel()
+    {
+        Debug.Log("LEVEL WON");
+        completeLevelUI.SetActive(true);
+    }
     public void EndGameFromCollision()
     {
         if(gameHasEnded == false)

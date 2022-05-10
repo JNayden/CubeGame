@@ -6,15 +6,39 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Level01.unity
+    path: Assets/Levels/Game Menu.unity
+    guid: 87b5aee2bdfe50d49932334fc439afff
+  - enabled: 1
+    path: Assets/Levels/Play Modes.unity
+    guid: fdef74fe01d8a844984d55112759fd13
+  - enabled: 1
+    path: Assets/Levels/StoryMode_lv1.unity
+    guid: 3ea32807546c5c64e8ebdd547ee3517b
+  - enabled: 1
+    path: Assets/Levels/GameFinish.unity
+    guid: 0d10e5105f16c924ca8839e770d70f17
+  - enabled: 1
+    path: Assets/StoryMode_lv2.unity
+    guid: 8e5f740dda1a9b54dbb9bd4749395877
+  - enabled: 1
+    path: Assets/Levels/StoryMode_lv3.unity
+    guid: b54bc5e046d85d445907a1c3a4a69022
+  - enabled: 1
+    path: Assets/Levels/StoryMode_lv4.unity
+    guid: caf6defd49e1bb6419460935c4402e2d
+  - enabled: 1
+    path: Assets/Levels/StoryMode_lv5.unity
+    guid: 4bc635ddf9cbc854c827fed9d018cb95
+  - enabled: 1
+    path: Assets/Levels/Level01.unity
     guid: e2d7be96c9d18c74ca6b1cbaec7b8082
+  - enabled: 1
+    path: Assets/Scenes/Survival.unity
+    guid: c24e103f1ec8179458030bbd7259f786
   - enabled: 1
     path: Assets/GameMenu.unity
     guid: 46b935af68eb84f4c8509a208499aab6
   - enabled: 1
-    path: Assets/StoryMode.unity
+    path: Assets/PlayModes.unity
     guid: fedff2cf018b77f42ba23b01d946b083
-  - enabled: 1
-    path: Assets/Scenes/Survival.unity
-    guid: c24e103f1ec8179458030bbd7259f786
   m_configObjects: {}
