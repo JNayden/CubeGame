@@ -9,6 +9,8 @@ public class CubeMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+       // forwardForce += 1;
+       // sidewayForce += 0.05f;
         rb.AddForce(0f, 0f, Time.deltaTime * forwardForce);
 
         if(Input.GetKey("a"))

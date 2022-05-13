@@ -57,18 +57,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
+    <Compile Include="Assets\Scripts\Credits.cs" />
+    <Compile Include="Assets\Scripts\endTrigger.cs" />
     <Compile Include="Assets\Scripts\levelLoader.cs" />
     <Compile Include="Assets\Scripts\UIPositionScript.cs" />
     <Compile Include="Assets\Scripts\CubeMovement.cs" />
     <Compile Include="Assets\Scripts\survivalLoader.cs" />
     <Compile Include="Assets\Scripts\BlockSpawner.cs" />
+    <Compile Include="Assets\Scripts\levelComplete.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\PositionUI.cs" />
     <Compile Include="Assets\Scripts\cubeCollision.cs" />
     <Compile Include="Assets\Scripts\UIPosition.cs" />
-    <Compile Include="Assets\Scripts\endTrigger.cs" />
-    <Compile Include="Assets\Scripts\levelComplete.cs" />
-    <Compile Include="Assets\Scripts\Credits.cs" />
     <Compile Include="Assets\Scripts\Menu.cs" />
   </ItemGroup>
   <ItemGroup>

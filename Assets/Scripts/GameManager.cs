@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("LEVEL WON");
         completeLevelUI.SetActive(true);
+        
     }
     public void EndGameFromCollision()
     {

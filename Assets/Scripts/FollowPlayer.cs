@@ -7,7 +7,7 @@ public class FollowPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        offset.Set(0, 2, -5);
+        offset.Set(0, 4, -10);
         transform.position = cube.position + offset;
     }
 }
