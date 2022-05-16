@@ -41,7 +41,7 @@ public class BlockSpawner : MonoBehaviour
             
             if (indexR != i)
             {
-                blockPefab.transform.localScale = new Vector3(scaleX, 0.1f, scaleZ);
+                blockPefab.transform.localScale = new Vector3(scaleX, 2f, scaleZ);
                 Instantiate(blockPefab, spawnPoints[i].position + newPos + newPos1, Quaternion.identity);
                 scaling();
             }

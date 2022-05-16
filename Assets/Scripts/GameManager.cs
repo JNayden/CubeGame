@@ -6,6 +6,18 @@ public class GameManager : MonoBehaviour
     SceneManager sceneManager;
     bool gameHasEnded = false;
     public GameObject completeLevelUI;
+    public GameObject levelOnPauseUI;
+
+    public void levelOnPause()
+    {
+        Debug.Log("LEVEL PAUSE");
+        levelOnPauseUI.SetActive(true);
+    }
+    public void levelOnResume()
+    {
+        Debug.Log("LEVEL PAUSE");
+        levelOnPauseUI.SetActive(false);
+    }
 
     public void completeLevel()
     {

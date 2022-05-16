@@ -9,5 +9,6 @@ public class survivalLoader : MonoBehaviour
     {
         Debug.Log(SceneManager.sceneCount); 
         SceneManager.LoadScene("Level01");
+        Time.timeScale = 1;
     }
 }
